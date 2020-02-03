@@ -12,7 +12,7 @@ public class KataNumbersToWords {
 			return singleDigits[0];
 		}
 		if (num > 0) {
-			return singleDigits[num + 1];
+			return singleDigits[num];
 		}
 		
 		return null;

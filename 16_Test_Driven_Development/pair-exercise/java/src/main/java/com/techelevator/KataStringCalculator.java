@@ -7,7 +7,7 @@ public class KataStringCalculator {
 			return 0;
 		} else {
 			int sum = 0;
-			String[] stringArray = string.split(",");
+			String[] stringArray = string.split("\\W+");
 			for (String str : stringArray) {
 				int tempInt = Integer.parseInt(str);
 				sum += tempInt;

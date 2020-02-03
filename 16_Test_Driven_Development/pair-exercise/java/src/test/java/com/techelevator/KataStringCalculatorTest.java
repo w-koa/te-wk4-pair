@@ -51,8 +51,17 @@ public class KataStringCalculatorTest {
 		int expected = 10;
 		int actual = kata.add("5\n,3,2");
 		assertEquals(expected,actual);
-		
 	}
+	
+//	@Test
+//	public void tests_that_slash_slash_exclaimpt_newline_4_exclaimpt_9_returns_13() {
+//		KataStringCalculator kata = new KataStringCalculator();
+//		int expected = 13;
+//		int actual = kata.add("//!\n4!9");
+//		assertEquals(expected, actual);
+//	}
+	
+	
 }
 	
 

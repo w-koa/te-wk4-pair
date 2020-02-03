@@ -22,6 +22,7 @@ public class KataStringCalculatorTest {
 		int actual = kataStringCalc.add("1");
 		assertEquals(expected, actual);
 	}
+	
 	@Test
 	public void tests_that_strings_1_and_2_returns_3() {
 	KataStringCalculator kataStringCalc = new KataStringCalculator();
@@ -29,6 +30,15 @@ public class KataStringCalculatorTest {
 	int actual = kataStringCalc.add("1,2");
 	assertEquals(expected,actual);
 	}
+	
+	@Test
+	public void tests_that_string_5_7_12_returns_24() {
+		KataStringCalculator kata = new KataStringCalculator();
+		int expected = 24;
+		int actual = kata.add("5,7,12");
+		assertEquals(expected,actual);
+	}
+	
 }
 	
 

@@ -10,7 +10,6 @@ public class KataStringCalculatorTest {
 	@Test
 	public void tests_that_empty_string_returns_0() {
 		KataStringCalculator kataStringCalculator = new KataStringCalculator();
-		
 		int expected = 0;
 		int actual = kataStringCalculator.add("");
 		assertEquals (expected, actual);

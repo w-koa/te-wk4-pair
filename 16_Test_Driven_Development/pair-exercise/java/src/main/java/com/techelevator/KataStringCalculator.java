@@ -2,5 +2,12 @@ package com.techelevator;
 
 public class KataStringCalculator {
 
+	public int add(String string) {
+		if (string.equals("")) {
+			return 0;
+		}
+		return 0;
+	}
+
 	
 }

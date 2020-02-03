@@ -16,9 +16,23 @@ public class KataNumbersToWordsTest {
 	}
 	
 	@Test
-	public void tests_that_10_returns_ten() {
+	public void tests_that_10_returns_Ten() {
 		String expected = "Ten";
 		String actual = numbers.convertNumberToWord(10);
 		assertEquals(expected, actual);
+	}
+	
+	@Test
+	public void tests_that_14_returns_Fourteen() {
+		String expected = "Fourteen";
+		String actual = numbers.convertNumberToWord(14);
+		assertEquals(expected,actual);
+	}
+	@Test
+	public void tests_that_26_returns_TwentySix() {
+		String expected = "Twenty-Six";
+		String actual = numbers.convertNumberToWord(26);
+		assertEquals(expected,actual);
+				
 	}
 }

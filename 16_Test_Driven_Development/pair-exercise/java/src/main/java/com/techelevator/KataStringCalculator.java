@@ -6,7 +6,13 @@ public class KataStringCalculator {
 		if (string.equals("")) {
 			return 0;
 		} else {
-			return Integer.parseInt(string);
+			int sum = 0;
+			String[] stringArray = string.split(",");
+			for (String str : stringArray) {
+				int tempInt = Integer.parseInt(str);
+				sum += tempInt;
+			}
+			return sum;
 		}
 		
 	}

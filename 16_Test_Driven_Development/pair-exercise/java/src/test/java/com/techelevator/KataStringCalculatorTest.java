@@ -15,6 +15,12 @@ public class KataStringCalculatorTest {
 		assertEquals (expected, actual);
 	}
 
-	
+	@Test
+	public void tests_string_1_returns_int_1() {
+		KataStringCalculator kataStringCalc = new KataStringCalculator();
+		int expected = 1;
+		int actual = kataStringCalc.add("1");
+		assertEquals(expected, actual);
+	}
 	
 }

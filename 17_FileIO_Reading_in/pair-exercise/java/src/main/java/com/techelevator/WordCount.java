@@ -17,8 +17,6 @@ public class WordCount {
 
 				String line = fileScanner.nextLine();
 				
-				System.out.println(line.split("[!?:.]"));
-				
 				String[] words = line.trim().split("\\s+");
 				for (int i = 0; i < words.length; i++) {
 					if (words[i].length() >= 1)
